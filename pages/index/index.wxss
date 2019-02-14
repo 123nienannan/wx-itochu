@@ -1,0 +1,122 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  margin: 0 auto;
+  padding-top: 49rpx;
+  width: 197rpx;
+  height: 85rpx;
+}
+.logoimg{
+  width: 100%;
+  height: 100%;
+}
+.uploadPic{
+  width: 311rpx;
+  height: 314rpx;
+  margin: 0 auto;
+  margin-top: 36rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headPic{
+  position: relative;
+  width: 256rpx;
+  height: 256rpx;
+}
+.head{
+  width: 100%;
+  height: 100%;
+}
+.truePic{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.person-info {
+  margin-top: 110rpx;
+}
+.username{
+  margin: 0 auto 20rpx;
+  width: 492rpx;
+  position: relative;
+}
+.name{
+   font-size:26rpx;
+   color:#ffffff;
+   font-family: AdobeHeitiStd-Regular;
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   left:40rpx;
+}
+.gap{
+  padding-left: 15rpx;
+}
+.usernumber{
+   margin: 0 auto 75rpx;
+   width: 492rpx;
+   position: relative;
+}
+.number{
+   font-size:26rpx;
+   color:#ffffff;
+   font-family: AdobeHeitiStd-Regular;
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   left:40rpx;
+}
+.info{
+   width:100%;
+   height: 100%;
+   padding:0 5rpx 0 140rpx;
+   box-sizing: border-box;
+   border: solid 1px #ffffff;
+   outline: none;
+   font-size: 26rpx;
+   border-radius:30rpx;
+   color: #333;
+   background-color: rgba(255, 255, 255, 0.5);
+}
+.next-btn{
+  text-align: center;
+  margin: 0 auto;
+  width: 492rpx;
+  height: 59rpx;
+  font-family: AdobeHeitiStd-Regular;
+	font-size: 25rpx;
+  letter-spacing: 1rpx;
+  border-radius:30rpx;
+  line-height: 59rpx;
+	background-color: #fce5d1;
+  color: #e73445;
+}
+.foot{
+  margin-top: 37rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 18rpx;
+  color: #fff;
+}
+.warpPic{
+  width: 28rpx;
+  height: 28rpx;
+}
+.iconLogo{
+  width: 100%;
+  height: 100%;
+}
+.line{
+  margin-left: 15rpx;
+  margin-right: 20rpx;
+  width: 5rpx;
+	height: 27rpx;
+  background-color: #fce5d1;
+}

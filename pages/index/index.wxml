@@ -1,0 +1,32 @@
+<!--index.wxml-->
+
+<view class='container' style='background: url("https://twc.digirogar.com/images/background.jpg") no-repeat;background-size: 100% 100%;'>
+  <view class='logo'>
+    <image class='logoimg' src='https://twc.digirogar.com/images/logo.png'></image>
+  </view>
+  <view class='uploadPic' bindtap="uploadPhoto" style='background: url("https://twc.digirogar.com/images/circle.png") no-repeat;background-size: 100% 100%;'>
+    <view class='headPic'>
+      <image class='head' src='https://twc.digirogar.com/images/head-portrait.png'></image>
+      <image class='truePic' wx:if="{{src}}" src='{{src}}' ></image>
+    </view>
+    <canvas canvas-id="photo_canvas" style="width:{{canvasWidth}}px;height:{{canvasHeight}}px;position: absolute;left:-300px;top:-300px;"></canvas>
+  </view>
+  <view class='person-info'>
+    <view class='username'>
+      <text class='name'>姓<text class='gap'></text> 名</text>
+      <input placeholder-style="color:#d1d3d3" class='info' value='{{personName}}' type="text" placeholder="请输入姓名" bindinput="setName"/>
+    </view>
+    <view class='usernumber'>
+      <text class='number'>员工号</text>
+      <input class='info' placeholder-style="color:#d1d3d3" value='{{workNumber}}' type="text" placeholder="请输入员工号" bindinput="setNumber"/>
+    </view>
+  </view>
+  <view class='next-btn' bindtap='enternext'>
+   报名
+  </view>
+  <view class='foot'>
+    <view class='warpPic'><image class='iconLogo' src='https://twc.digirogar.com/images/icon-logo.png'></image></view>
+    <view class='line'></view>
+    <text>本系统由上海同温层智能科技有限公司提供</text>
+  </view>
+</view>
